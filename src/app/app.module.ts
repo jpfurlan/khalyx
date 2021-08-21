@@ -13,6 +13,7 @@ import { HeaderComponent } from './template/header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NavComponent } from './template/nav/nav.component';
 import { AppRoutingModule } from './app-routing.module';
+import { NgforComponent } from './diretives/ngfor/ngfor.component';
 
 
 
@@ -24,7 +25,8 @@ import { AppRoutingModule } from './app-routing.module';
     IntermediaryComponent,
     AdvancedComponent,
     HeaderComponent,
-    NavComponent
+    NavComponent,
+    NgforComponent
   ],
   imports: [
     BrowserModule,

@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./intermediary.component.css']
 })
 export class IntermediaryComponent implements OnInit {
-
+  exercicios: string[] = [
+    "Exercício 1",
+    "Exercício 2",
+    "Exercício 3"
+  ];
   constructor() { }
 
   ngOnInit(): void {

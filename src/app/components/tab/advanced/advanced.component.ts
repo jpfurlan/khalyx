@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./advanced.component.css']
 })
 export class AdvancedComponent implements OnInit {
-
+  exercicios: string[] = [
+    "Exercício 1",
+    "Exercício 2",
+    "Exercício 3"
+  ];
   constructor() { }
 
   ngOnInit(): void {

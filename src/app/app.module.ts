@@ -14,7 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NavComponent } from './template/nav/nav.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NgforComponent } from './diretives/ngfor/ngfor.component';
-
+import { MatIconModule } from '@angular/material/icon';
 
 
 
@@ -33,7 +33,8 @@ import { NgforComponent } from './diretives/ngfor/ngfor.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTabsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatIconModule,
 
   ],
   providers: [],

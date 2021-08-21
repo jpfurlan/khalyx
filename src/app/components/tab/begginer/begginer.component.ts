@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class BegginerComponent implements OnInit {
 
   listaExercicios : any[] = [
-    { id: '1', nome: 'Flexão', description: ' Exercício de levantamento do chão'},
+    { id: 'iniciante', nome: 'Flexão', description: ' Exercício de levantamento do chão'},
     { id: '2', nome: 'Burpee', description: ' Exercício que movimenta o corpo todo'},
     { id: '3', nome: 'Supino', description: ' Exercício para trabalhar os biceps'},
 

@@ -9,6 +9,10 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  goBack(){
+    window.history.back();
+  }
+
   ngOnInit(): void {
   }
 

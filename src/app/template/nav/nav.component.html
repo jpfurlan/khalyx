@@ -1,11 +1,9 @@
+<nav mat-tab-nav-bar>
+  <a mat-tab-link *ngFor="let link of links" [routerLink]="link.path" routerLinkActive
+     (click)="activeLink = link"
+     > {{link.label}} </a>
+
+</nav>
+<router-outlet></router-outlet>
 
 
-<div>
-<mat-tab-group mat-align-tabs="center">
-  <mat-tab label="Iniciante" routerLink="begginer"> CAAAAA </mat-tab>
-  <mat-tab label="Intermediário" routerLink="intermediary"> Content 2 </mat-tab>
-  <mat-tab label="Avançado" routerLink="advanced"> Content 3 </mat-tab>
-</mat-tab-group>
-
-
-</div>

@@ -1,21 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import {Component} from '@angular/core';
+import {ThemePalette} from '@angular/material/core';
 
+/**
+ * @title Basic use of the tab nav bar
+ */
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.css']
+  styleUrls: ['./nav.component.css'],
 })
-export class NavComponent implements OnInit {
+export class NavComponent {
+  links = [
+    {path:'begginer', label:'Begginer'},
+    {path:'intermediary', label:'Intermediary'},
+    {path:'advanced', label:'Advanced'},
+  ];
+  activeLink = this.links[0];
 
-  Links = [
-    {path: 'begginer', label: 'Begginer'},
-    {path: 'intermediary', label: 'Intermediary'},
-    {path: 'advanced', label: 'Advanced'}
-  ]
 
-  constructor() { }
 
-  ngOnInit(): void {
-  }
 
 }

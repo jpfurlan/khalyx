@@ -6,9 +6,6 @@ import { IntermediaryComponent } from './components/tab/intermediary/intermediar
 import { AdvancedComponent } from './components/tab/advanced/advanced.component';
 
 
-
-
-
 const routes: Routes = [{
   path: "",
   component: BegginerComponent

@@ -1,3 +1,6 @@
+
+![alt text for screen readers](/src/assets/img/apresentação.jpg "Text to show on mouseover")
+
 # Khalyx
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.4.

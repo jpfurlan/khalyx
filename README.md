@@ -1,5 +1,5 @@
 
-<img src="https://github.com/jpfurlan/khalyx/blob/master/src/assets/img/apresentacao.jpg" 
+<img src="https://github.com/jpfurlan/khalyx/blob/master/src/assets/img/apresentacao.jpg">
 
 # Khalyx
 

@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { RouterModule,Routes } from '@angular/router';
 
-import { BegginerComponent } from './components/tab/begginer/begginer.component';
+import { BeginnerComponent } from './components/tab/beginner/beginner.component';
 import { IntermediaryComponent } from './components/tab/intermediary/intermediary.component';
 import { AdvancedComponent } from './components/tab/advanced/advanced.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -15,13 +15,13 @@ import { NavComponent } from './template/nav/nav.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NgforComponent } from './diretives/ngfor/ngfor.component';
 import { MatIconModule } from '@angular/material/icon';
-
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BegginerComponent,
+    BeginnerComponent,
     IntermediaryComponent,
     AdvancedComponent,
     HeaderComponent,
@@ -35,6 +35,7 @@ import { MatIconModule } from '@angular/material/icon';
     MatTabsModule,
     MatToolbarModule,
     MatIconModule,
+    MatCardModule
 
   ],
   providers: [],

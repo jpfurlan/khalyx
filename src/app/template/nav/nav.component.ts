@@ -11,7 +11,7 @@ import {ThemePalette} from '@angular/material/core';
 })
 export class NavComponent {
   links = [
-    {path:'begginer', label:'Begginer'},
+    {path:'beginner', label:'Beginner'},
     {path:'intermediary', label:'Intermediary'},
     {path:'advanced', label:'Advanced'},
   ];

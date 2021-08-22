@@ -1,4 +1,5 @@
-#Imagem do app
+##Imagem do app
+
 <img src="https://github.com/jpfurlan/khalyx/blob/master/src/assets/img/apresentacao.jpg">
 
 # Khalyx

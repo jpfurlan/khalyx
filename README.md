@@ -1,6 +1,5 @@
-# Aplicativo básico de calistenia
-aplicativo simples de exercícios, com material
-![alt text for screen readers](/src/assets/img/apresentação.jpg "Text to show on mouseover")
+Imagem do app
+<img src="https://github.com/jpfurlan/khalyx/blob/master/src/assets/img/apresentacao.jpg">
 
 # Khalyx
 

@@ -1,5 +1,5 @@
 
-![alt text for screen readers](/src/assets/img/apresentação.jpg "Text to show on mouseover")
+[<img src="src/assets/img/apresentacao.jpg" ]
 
 # Khalyx
 
